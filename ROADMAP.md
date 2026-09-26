@@ -80,3 +80,8 @@ Interview-grade MCP tools / skills / CLIs with offline fixtures — see [ai-auto
 ```
 
 (Parent agent / owner wires the profile README — this repo only suggests the blurb.)
+
+## Notes from scaffolding (2026-09-26)
+
+- `foundry-eval-gate`: GitHub Actions YAML lives at `docs/examples/eval-gate.yml` because the OAuth token lacked `workflow` scope to push `.github/workflows/`. Copy into `.github/workflows/` when available.
+- All seven project repos run offline with fixtures; no secrets committed.
