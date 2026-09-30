@@ -1,7 +1,8 @@
 # LinkedIn post draft — Week 1 launch (`kc-mcp`)
 
 **Status:** Draft only — do not auto-post. Review tone, then publish manually.  
-**Suggested media:** 60–90s Loom (script in `kc-mcp/docs/DEMO.md`) + repo link.
+**Suggested media:** 60–90s Loom (script in `kc-mcp/docs/DEMO.md`) + repo link.  
+**Static fallback:** README SVG at `kc-mcp/assets/demo-terminal.svg` (honest fixture CLI output).
 
 ---
 
@@ -33,6 +34,23 @@ Clone it. Run `make demo`. Tell me what corpus you'd plug in first.
 
 ---
 
+## First comment (pin)
+
+```
+git clone https://github.com/suhail39ahmed/kc-mcp.git
+cd kc-mcp && python -m venv .venv && source .venv/bin/activate
+pip install -e . && make demo
+
+Screenshot-friendly:
+python -m kc_mcp --format text topics
+python -m kc_mcp --format text search "key vault managed identity" --top-k 2
+```
+
+Star playbook + all seven video outlines:  
+https://github.com/suhail39ahmed/ai-automation-portfolio/blob/main/docs/star-playbook.md
+
+---
+
 ## Alternate shorter version
 
 Shipped **kc-mcp**: MCP-shaped Knowledge Center tools so coding agents can search and cite teaching notes offline.
@@ -51,3 +69,4 @@ https://github.com/suhail39ahmed/kc-mcp
 - Pin `kc-mcp` + portfolio on GitHub the same day
 - Reply to comments with the next repo (`ado-pipeline-doctor`) rather than soft CTAs
 - Do not invent engagement metrics in comments
+- Do not auto-post this draft from any agent/tooling

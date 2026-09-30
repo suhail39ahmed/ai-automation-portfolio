@@ -17,9 +17,18 @@ See **[ROADMAP.md](./ROADMAP.md)** for phases, who each repo is for, resume bull
 | 2 | [`foundry-eval-gate`](https://github.com/suhail39ahmed/foundry-eval-gate), [`azure-ops-mcp`](https://github.com/suhail39ahmed/azure-ops-mcp) |
 | 3 | [`lakehouse-insights-skill`](https://github.com/suhail39ahmed/lakehouse-insights-skill), [`iac-guard-mcp`](https://github.com/suhail39ahmed/iac-guard-mcp), [`clip2lab`](https://github.com/suhail39ahmed/clip2lab) |
 
+## Get stars
+
+Honest growth only — no bots, no fake metrics.
+
+- **[Star playbook](./docs/star-playbook.md)** — pin order, weekly launch cadence, communities, non-spam checklist  
+- **[Video ideas](./docs/video-ideas.md)** — Loom outlines for all 7 repos + 3 screenshot frames + LinkedIn first-comment with `make demo`  
+- Week 1 LinkedIn draft: [`docs/linkedin-week1-kc-mcp.md`](./docs/linkedin-week1-kc-mcp.md) (**do not auto-post**)
+
 ## Launch content
 
 - Week 1 LinkedIn draft: [`docs/linkedin-week1-kc-mcp.md`](./docs/linkedin-week1-kc-mcp.md)
+- Demo index: [`docs/DEMO.md`](./docs/DEMO.md)
 
 ## License
 
